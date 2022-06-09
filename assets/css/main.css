@@ -2527,14 +2527,16 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/notoverlay.png"), url("../../images/banner.jpg")/*, url("../../2.jpg")*/;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg")/*, url("../../2.jpg")*/;
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
-		text-align: center;
+		text-align: center; 
+		transition: 2s;
+		-webkit-transition: background-image 2s;
 	}
 		/* The inner 'floating' window */
 		#banner .inner {
@@ -2632,6 +2634,8 @@ input, select, textarea {
 		color: #fff;
 		padding: 5em;
 		text-align: center;
+		transition: 2s;
+		-webkit-transition: background-image 2s;
 	}
 
 		#cta header {
@@ -3339,3 +3343,4 @@ input, select, textarea {
 			}
 
 	}
+

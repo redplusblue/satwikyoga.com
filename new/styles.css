@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  
+
 }
 
 #top-nav {
@@ -20,17 +20,15 @@ section {
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   box-shadow: var(--box-shadow);
 }
 
 #nav-link-container {
-  margin-left: max(3vw, 30px);
   display: flex;
   flex-direction: row;
   gap: 1.2vw;
-  list-style-type: none;
-  font-size: max(1.2vw, 20px);
+  font-size: max(1.2vw, 15px);
 }
 
 #top-nav > a{
@@ -54,10 +52,33 @@ section {
   text-decoration: none;
 }
 
-#nav-link:hover {
+#nav-link:hover{
+  text-align: center;
   color: black;
   background-color: rgba(255, 255, 255, 0.838);
   border-radius: 15px;
   text-decoration: none;
 }
 
+#nav-link:hover #nav-content {
+  display: inherit;
+}
+
+#nav-content {
+  text-align: center;
+  display: none;
+  font-size: max(1.2vw, 12px);
+}
+
+#nav-content:hover {
+  border-radius: 10px;
+  padding: 1px;
+  background-color: steelblue;
+  color: white;
+}
+
+#slideshow-container {
+  margin: max(1vw, 10px);
+  box-shadow: var(--box-shadow);
+  background: aqua !important;
+}

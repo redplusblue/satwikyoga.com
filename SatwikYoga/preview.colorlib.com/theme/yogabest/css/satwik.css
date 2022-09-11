@@ -3812,6 +3812,14 @@ fieldset:disabled a.btn {
     pointer-events: none;
     cursor: default; }
 
+.enroll > span {
+  padding: 0.7rem;
+  background: #6cae22;
+  border-radius: 15px;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+}
+
 .navbar {
   position: relative;
   display: -webkit-box;

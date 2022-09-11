@@ -3547,6 +3547,26 @@ textarea.form-control {
 .form-group {
   margin-bottom: 1rem; }
 
+.icons{
+  width: 25px;
+}
+
+.facebook {
+  content: url(icons/facebook.svg);
+}
+
+.instagram {
+  content: url(icons/reels.svg);
+}
+
+.tiktok {
+  content: url(icons/tiktok.svg);
+}
+
+.youtube {
+  content: url(icons/youtube.svg);
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -3818,6 +3838,10 @@ fieldset:disabled a.btn {
   border-radius: 15px;
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
+}
+
+.enroll>span:hover {
+  opacity: 95%;
 }
 
 .navbar {

@@ -4975,7 +4975,7 @@ z-index: 0; }
     color: #fff;
     font-size: 50px;
     text-transform: capitalize; }
-
+    
 .owl-carousel.owl-drag .owl-item {
 -ms-touch-action: pan-y;
 touch-action: pan-y; }

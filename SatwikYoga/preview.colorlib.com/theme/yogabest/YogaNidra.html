@@ -2,115 +2,101 @@
 <html lang="en">
 
 <head>
-    <title>Yogabest - Free Bootstrap 4 Template by Colorlib</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="css/satwik.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <script
-        nonce="b77e49e1-25c7-4cd4-9fec-5f854d4cd523">(function (w, d) { !function (a, e, t, r) { a.zarazData = a.zarazData || {}; a.zarazData.executed = []; a.zaraz = { deferred: [] }; a.zaraz.q = []; a.zaraz._f = function (e) { return function () { var t = Array.prototype.slice.call(arguments); a.zaraz.q.push({ m: e, a: t }) } }; for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e); a.zaraz.init = () => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r), n = e.getElementsByTagName("title")[0]; n && (a.zarazData.t = e.getElementsByTagName("title")[0].text); a.zarazData.x = Math.random(); a.zarazData.w = a.screen.width; a.zarazData.h = a.screen.height; a.zarazData.j = a.innerHeight; a.zarazData.e = a.innerWidth; a.zarazData.l = a.location.href; a.zarazData.r = e.referrer; a.zarazData.k = a.screen.colorDepth; a.zarazData.n = e.characterSet; a.zarazData.o = (new Date).getTimezoneOffset(); a.zarazData.q = []; for (; a.zaraz.q.length;) { const e = a.zaraz.q.shift(); a.zarazData.q.push(e) } z.defer = !0; for (const e of [localStorage, sessionStorage]) Object.keys(e || {}).filter((a => a.startsWith("_zaraz_"))).forEach((t => { try { a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t)) } catch { a.zarazData["z_" + t.slice(7)] = e.getItem(t) } })); z.referrerPolicy = "origin"; z.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))); t.parentNode.insertBefore(z, t) };["complete", "interactive"].includes(e.readyState) ? zaraz.init() : a.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
+  <title>Satwik Yoga</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="css/satwik.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script nonce="b77e49e1-25c7-4cd4-9fec-5f854d4cd523">(function (w, d) { !function (a, e, t, r) { a.zarazData = a.zarazData || {}; a.zarazData.executed = []; a.zaraz = { deferred: [] }; a.zaraz.q = []; a.zaraz._f = function (e) { return function () { var t = Array.prototype.slice.call(arguments); a.zaraz.q.push({ m: e, a: t }) } }; for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e); a.zaraz.init = () => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r), n = e.getElementsByTagName("title")[0]; n && (a.zarazData.t = e.getElementsByTagName("title")[0].text); a.zarazData.x = Math.random(); a.zarazData.w = a.screen.width; a.zarazData.h = a.screen.height; a.zarazData.j = a.innerHeight; a.zarazData.e = a.innerWidth; a.zarazData.l = a.location.href; a.zarazData.r = e.referrer; a.zarazData.k = a.screen.colorDepth; a.zarazData.n = e.characterSet; a.zarazData.o = (new Date).getTimezoneOffset(); a.zarazData.q = []; for (; a.zaraz.q.length;) { const e = a.zaraz.q.shift(); a.zarazData.q.push(e) } z.defer = !0; for (const e of [localStorage, sessionStorage]) Object.keys(e || {}).filter((a => a.startsWith("_zaraz_"))).forEach((t => { try { a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t)) } catch { a.zarazData["z_" + t.slice(7)] = e.getItem(t) } })); z.referrerPolicy = "origin"; z.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))); t.parentNode.insertBefore(z, t) };["complete", "interactive"].includes(e.readyState) ? zaraz.init() : a.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
 
     <!-- Style for srop down menu -->
-    <style>
-        ul li {
-            display: block;
-            position: relative;
-            line-height: 10px;
-            text-align: left;
-        }
+    <style>      
 
-        ul li a {
-            display: block;
-            padding: 8px 25px;
-            color: #333;
-            text-decoration: none;
-        }
-
-        ul li a:hover {
-            color: #fff;
-            background: #6cae22;
-        }
-
-        ul li ul.dropdown {
-            min-width: 200%;
-            /* Set width of the dropdown */
-            background: #f2f2f2;
-            display: none;
-            position: absolute;
-            z-index: 999;
-            left: 0;
-        }
-
-        ul li:hover ul.dropdown {
-            display: block;
-            /* Display the dropdown */
-        }
-    </style>
-
+      ul li {
+          display: block;
+          position: relative;
+          line-height: 10px;
+          text-align: left;
+      }
+      ul li a {
+          display: block;
+          padding: 8px 25px;
+          color: #333;
+          text-decoration: none;
+      }
+      ul li a:hover {
+          color: #fff;
+          background: #6cae22;
+      }
+      ul li ul.dropdown2 {
+          min-width: 200%;
+          /* Set width of the dropdown */
+          background: #f2f2f2;
+          display: none;
+          position: absolute;
+          z-index: 999;
+          left: 0;
+      }
+      ul li:hover ul.dropdown2 {
+          display: block;
+          /* Display the dropdown */
+      }
+  </style>
 
 </head>
 
 <body>
-    <!-- social media and phone numbers -->
-    <div class="wrap">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-12 col-md d-flex align-items-center">
-                    <p class="mb-0 phone">Phone no:<a href="tel:(469)-767-1512">+1 469-767-1512</a> or <a
-                            href="#">srikapil@yahoo.com</a></p>
-                </div>
-                <div class="col-12 col-md d-flex justify-content-md-end">
-                    <div class="social-media">
-                        <p class="mb-0 d-flex">
-                            <a href="https://www.facebook.com/srikapil" target="_blank"
-                                class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
-                                        class="sr-only">Facebook</i></span></a>
-                            <a href="https://www.instagram.com/kumark.kapil/" target="_blank"
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                            <a href="https://www.youtube.com/channel/UCxCAPeVlgjejkDSlJqoTXUA" target="_blank"
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-youtube-play"><i class="sr-only">YouTube</i></span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <!-- social media and phone numbers -->
+  <div class="wrap">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md d-flex align-items-center">
+          <p class="mb-0 phone">Phone no:<a href="tel:(469)-767-1512">+1 469-767-1512</a> or <a href="#">srikapil@yahoo.com</a></p>
         </div>
+        <div class="col-12 col-md d-flex justify-content-md-end">
+          <div class="social-media">
+            <p class="mb-0 d-flex">              
+              <a href="https://www.facebook.com/srikapil" target="_blank" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+              <a href="https://www.instagram.com/kumark.kapil/" target="_blank" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>              
+              <a href="https://www.youtube.com/channel/UCxCAPeVlgjejkDSlJqoTXUA" target="_blank" class="d-flex align-items-center justify-content-center"><span class="fa fa-youtube-play"><i class="sr-only">YouTube</i></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <!-- Menu -->
+  <!-- Menu -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Satwikyoga.com</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="fa fa-bars"></span> Menu</button>
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="Courses.html" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
-                    <li class="nav-item"><a href="Resources.html" class="nav-link">Resources</a>
-                        <ul class="dropdown">
-                            <li><a href="YogaNidra.html">Yoga Nidra</a></li>
-                            <li><a href="#">Meditation</a></li>
-                            <li><a href="#">Yogic Treatments</a></li>
-                            <li><a href="#">Shatkarma</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link"><span>Enroll!</span></a></li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Satwikyoga.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span> Menu</button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>          
+          <li class="nav-item"><a href="Courses.html" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
+          <li class="nav-item"><a href="Resources.html" class="nav-link">Resources</a>
+            <ul class="dropdown2">
+                <li><a href="YogaNidra.html">Yoga Nidra</a></li>
+                <li><a href="#">Meditation</a></li>
+                <li><a href="#">Yogic Treatments</a></li>  
+                <li><a href="#">Shatkarma</a></li>
+            </ul>
+        </li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link"><span>Enroll!</span></a></li>
+        </ul>
+      </div>
 
-        </div>
-    </nav>
+    </div>
+  </nav>
 
 
     <section class="hero-wrap hero-wrap-2" style="background-image:url(images/Slider-modulos.jpg)">
@@ -124,14 +110,359 @@
                         <span>Resources<i class="fa fa-chevron-right"></i></span>
                         <span>Yoga Nidra<i class="fa fa-chevron-right"></i></span>
                     </p>
-                    <h1 class="mb-0 bread">Yoga Nidra</h1>
+                    <h1 class="mb-0 bread"><B>Yoga Nidra</B></h1>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="ftco-section ftco-no-pb ftco-about img">
+    <section
+    class="elementor-section elementor-top-section elementor-element elementor-element-74cb1ea elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    data-id="74cb1ea" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-row">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5dc7211"
+                data-id="5dc7211" data-element_type="column"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-column-wrap elementor-element-populated">
+                    <div class="elementor-widget-wrap">
+                        <div class="elementor-element elementor-element-d3d4e5f elementor-widget elementor-widget-heading"
+                            data-id="d3d4e5f" data-element_type="widget"
+                            data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2
+                                    class="elementor-heading-title elementor-size-default">
+                                    Qué enseñamos</h2>
+                            </div>
+                        </div>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-8731081 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="8731081" data-element_type="section">
+                            <div
+                                class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1ca0ce9"
+                                        data-id="1ca0ce9"
+                                        data-element_type="column">
+                                        <div
+                                            class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-050b033 elementor-widget elementor-widget-image"
+                                                    data-id="050b033"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image">
+                                                            <img width="418"
+                                                                height="253"
+                                                                src="./Academia de yoga Satyananda_files/asanas.png"
+                                                                class="attachment-large size-large"
+                                                                alt=""
+                                                                loading="lazy"
+                                                                srcset="https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/05/asanas.png?w=418&amp;ssl=1 418w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/05/asanas.png?resize=267%2C162&amp;ssl=1 267w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/05/asanas.png?resize=300%2C182&amp;ssl=1 300w"
+                                                                sizes="(max-width: 418px) 100vw, 418px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-1f7abe0 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                                    data-id="1f7abe0"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image-box.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image-box-wrapper">
+                                                            <div
+                                                                class="elementor-image-box-content">
+                                                                <h3
+                                                                    class="elementor-image-box-title">
+                                                                    Asanas
+                                                                </h3>
+                                                                <p
+                                                                    class="elementor-image-box-description">
+                                                                    Las asanas
+                                                                    se conocen
+                                                                    como
+                                                                    técnicas que
+                                                                    colocan el
+                                                                    cuerpo en
+                                                                    posiciones
+                                                                    que cultivan
+                                                                    la
+                                                                    conciencia
+                                                                    atenta, la
+                                                                    relajación,
+                                                                    la
+                                                                    concentración
+                                                                    y la
+                                                                    meditación.
+                                                                    Una parte
+                                                                    importante
+                                                                    de este
+                                                                    proceso es
+                                                                    el
+                                                                    desarrollo
+                                                                    de una buena
+                                                                    salud física
+                                                                    al estirar,
+                                                                    masajear y
+                                                                    estimular
+                                                                    los canales
+                                                                    pránicos y
+                                                                    los órganos
+                                                                    internos.<br>
+                                                                    <br><br>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8d1fd32"
+                                        data-id="8d1fd32"
+                                        data-element_type="column">
+                                        <div
+                                            class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-c65e8ea elementor-widget elementor-widget-image"
+                                                    data-id="c65e8ea"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image">
+                                                            <img width="418"
+                                                                height="253"
+                                                                src="./Academia de yoga Satyananda_files/pranayama.png"
+                                                                class="attachment-large size-large"
+                                                                alt=""
+                                                                loading="lazy"
+                                                                srcset="https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/05/pranayama.png?w=418&amp;ssl=1 418w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/05/pranayama.png?resize=267%2C162&amp;ssl=1 267w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/05/pranayama.png?resize=300%2C182&amp;ssl=1 300w"
+                                                                sizes="(max-width: 418px) 100vw, 418px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-87c9e59 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                                    data-id="87c9e59"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image-box.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image-box-wrapper">
+                                                            <div
+                                                                class="elementor-image-box-content">
+                                                                <h3
+                                                                    class="elementor-image-box-title">
+                                                                    Pranayamas
+                                                                </h3>
+                                                                <p
+                                                                    class="elementor-image-box-description">
+                                                                    Prana
+                                                                    significa
+                                                                    «energía
+                                                                    vital» o
+                                                                    «fuerza
+                                                                    vital»,
+                                                                    ayama
+                                                                    significa
+                                                                    «expandir».
+                                                                    En
+                                                                    consecuencia
+                                                                    pranayama es
+                                                                    la expansión
+                                                                    de la fuerza
+                                                                    vital. Esta
+                                                                    energía
+                                                                    vital es la
+                                                                    responsable
+                                                                    de todas las
+                                                                    experiencias
+                                                                    de la vida
+                                                                    incluyendo
+                                                                    las físicas
+                                                                    y las
+                                                                    espirituales.<br><br><br><br>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-198736b"
+                                        data-id="198736b"
+                                        data-element_type="column">
+                                        <div
+                                            class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-8042983 elementor-widget elementor-widget-image"
+                                                    data-id="8042983"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image">
+                                                            <img width="418"
+                                                                height="253"
+                                                                src="./Academia de yoga Satyananda_files/yoganindra.png"
+                                                                class="attachment-large size-large"
+                                                                alt=""
+                                                                loading="lazy"
+                                                                srcset="https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/yoganindra.png?w=418&amp;ssl=1 418w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/yoganindra.png?resize=267%2C162&amp;ssl=1 267w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/yoganindra.png?resize=300%2C182&amp;ssl=1 300w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/yoganindra.png?resize=64%2C39&amp;ssl=1 64w"
+                                                                sizes="(max-width: 418px) 100vw, 418px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-49cd1ba elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                                    data-id="49cd1ba"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image-box.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image-box-wrapper">
+                                                            <div
+                                                                class="elementor-image-box-content">
+                                                                <h3
+                                                                    class="elementor-image-box-title">
+                                                                    Satyananda
+                                                                    Yoga Nidra®
+                                                                </h3>
+                                                                <p
+                                                                    class="elementor-image-box-description">
+                                                                    El
+                                                                    Satyananda
+                                                                    Yoga Nidra
+                                                                    fue diseñado
+                                                                    por Swami
+                                                                    Satyananda
+                                                                    Saraswati y
+                                                                    es una
+                                                                    técnica de
+                                                                    pratyahara
+                                                                    en donde a
+                                                                    la mente se
+                                                                    le permite
+                                                                    relajarse.
+                                                                    Es un método
+                                                                    sistemático
+                                                                    para inducir
+                                                                    completa
+                                                                    relajación
+                                                                    física,
+                                                                    mental y
+                                                                    emocional.
+                                                                    Esta
+                                                                    práctica ha
+                                                                    tenido un
+                                                                    profundo
+                                                                    efecto
+                                                                    transformador
+                                                                    en los
+                                                                    practicantes.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0b0e2b8"
+                                        data-id="0b0e2b8"
+                                        data-element_type="column">
+                                        <div
+                                            class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-03b6f08 elementor-widget elementor-widget-image"
+                                                    data-id="03b6f08"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image">
+                                                            <img width="418"
+                                                                height="253"
+                                                                src="./Academia de yoga Satyananda_files/meditacion.png"
+                                                                class="attachment-large size-large"
+                                                                alt=""
+                                                                loading="lazy"
+                                                                srcset="https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/meditacion.png?w=418&amp;ssl=1 418w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/meditacion.png?resize=267%2C162&amp;ssl=1 267w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/meditacion.png?resize=300%2C182&amp;ssl=1 300w, https://i0.wp.com/www.satyanandayoga.co/wp-content/uploads/2020/06/meditacion.png?resize=64%2C39&amp;ssl=1 64w"
+                                                                sizes="(max-width: 418px) 100vw, 418px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-44763a9 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                                    data-id="44763a9"
+                                                    data-element_type="widget"
+                                                    data-widget_type="image-box.default">
+                                                    <div
+                                                        class="elementor-widget-container">
+                                                        <div
+                                                            class="elementor-image-box-wrapper">
+                                                            <div
+                                                                class="elementor-image-box-content">
+                                                                <h3
+                                                                    class="elementor-image-box-title">
+                                                                    Meditación
+                                                                </h3>
+                                                                <p
+                                                                    class="elementor-image-box-description">
+                                                                    El
+                                                                    Satyananda
+                                                                    Yoga ha
+                                                                    desarrollado
+                                                                    muchas
+                                                                    técnicas de
+                                                                    concentración
+                                                                    y de
+                                                                    meditación
+                                                                    tomadas de
+                                                                    antiguos
+                                                                    textos. Las
+                                                                    prácticas de
+                                                                    pratyahara,
+                                                                    dharana y
+                                                                    dhyana
+                                                                    derivadas de
+                                                                    los
+                                                                    Upanishads,
+                                                                    los Tantras
+                                                                    y otras
+                                                                    tradiciones,
+                                                                    se han
+                                                                    clasificado,
+                                                                    enseñado y
+                                                                    publicado.<br><br><br><br>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+    <!-- <section class="ftco-section ftco-no-pb ftco-about img">
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-12 about-intro">
@@ -175,6 +506,9 @@
             </div>
         </div>
     </section>
+
+
+
     <section class="ftco-section ftco-services img"
         style="background-image:url(images/xbg_3.jpg.pagespeed.ic.llEX0MlaqZ.jpg)">
         <div class="overlay"></div>
@@ -407,7 +741,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+
+
     <footer class="ftco-footer">
     <div class="container">
       <div class="row mb-5 justify-content-between">

@@ -1,0 +1,505 @@
+<html>
+<head>
+<!-- <style =text/css>
+    /* .myDiv {
+        border: 5px outset=red ;
+        border-color: black;
+        border-width: 10px;
+        border-block: 10px;
+        background-color: lightblue;
+        text-align: center;
+    }
+    
+    yourdiv {
+        display: block;
+    }
+    
+    .shadowbox {
+        width: 10em;
+        border: 1px solid #333;
+        box-shadow: 8px 8px 5px #444;
+        padding: 8px 12px;
+        background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    } */
+
+
+    /* .leftdiv{
+        float: left;
+    }
+    .middlediv{
+        float: left;
+        background-color: grey;
+    }
+    .rightdiv{
+        float: left;
+
+
+    }
+    .kapildiv{
+        float: left;
+        padding: 1%;
+        color: white;
+        background-color: 009900;
+        width: 30%;
+        border: solid black;
+    }
+ */
+    /* p{
+        background-color: grey;
+        margin: 10px;
+    }
+    div{
+        color: white;
+        background-color: 009900;
+        margin: 2px;
+        font-size: 25px;
+    } */
+
+
+    /* body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
+    /* .square{
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+    } */
+    /* .circle {
+      background-color: #2ecc71;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    } */
+
+.topsquare{
+    background-color: orange;
+    width: 200px;
+    height: 50px;    
+    border: solid blue;
+    border-width: 1px;
+    border-bottom: 0px;
+}
+
+.Middlesquare{
+    background-color: white;
+    width: 200px;
+    height: 50px;    
+    border: solid blue;
+    border-top: 0px;
+    border-bottom: 0px;       
+    padding: 0px 0;
+    /* text-align: center;
+    align-items: center;       */
+    border-width: 1px;
+    vertical-align: middle;
+    display: inline-block;    
+}
+
+
+.Bottomsquare{
+    background-color: green;
+    width: 200px;
+    height: 50px;    
+    border: solid blue;
+    border-top: 0px;
+    border-width: 1px;
+}
+
+
+.Circle{
+     background-color: blue; 
+    border-color: solid red;
+    width: 49px;
+    height: 49px;    
+    border-radius: 100%;
+}
+
+.center{
+    margin: auto;
+    height: 200px;
+    width: 50%;
+    position: relative;
+    border: 3px solid green;
+    display:
+    
+}
+
+.center p{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+} 
+
+.intro {
+  width: 200px;
+  margin: auto;
+}
+
+</style> -->
+
+
+<style ="text / css">
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.hero,
+.about,
+.services,
+.contact {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.Menubar{
+padding: 0 70px;
+display: flex;
+align-content: center;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.logo{
+
+}
+
+.nav{
+display: flex;
+align-content: center;
+justify-content: center;
+gap: 60px;
+list-style-type:square
+}
+.nav li a {
+    text-decoration: double;
+    color: red;
+    font-size: 1.2rem;
+}
+
+.hero{
+    vertical-align: middle;
+    width: 50%;
+    background-color: #eee;
+    height: 200px;
+}
+.hero h1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    line-height: 6;
+}
+.about {
+      background-color: #eee;
+      height: 200px;
+    }
+
+.about h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 6;
+    }
+.footer {
+      background-color: #777;
+      height: 40px;
+    }
+
+.footer p {
+      margin: 0 auto;
+      line-height: 1.7;
+    } */
+
+    .square{
+        background-color: aqua;
+        width: 280px;
+        height: 158px;
+    }
+
+    .divsquare {
+        float: none;
+        background-color: white;
+        /*border: solid rgba(128, 128, 128, 0.534); */
+        /*width: 300px;*/
+        height: 180px;
+        margin: 20px;
+        display: flex;
+        /* align-items: center;
+        justify-content: center;
+        vertical-align: top; */
+        width: 15em;
+        border: 1px solid #333;
+        box-shadow: 8px 8px 5px #444;
+        padding: 8px 12px;
+        background-image: linear-gradient(
+          180deg,
+          #fff,
+          #ddd 40%,
+          rgb(231, 230, 230)
+        );
+      }
+      /*
+      nidtraparent is parent, a grid of divs with class divsquare
+      */ 
+      .nidraparent {
+        display: grid;
+        /* responsive grid */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+        grid-gap: 2em;
+        /* center - align */
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      /* .nidratable{        
+        background-color: rgba(128, 128, 128, 0.089);        
+        display: flex;
+        padding: 2px;
+        align-content: center;
+        align-items: center;
+        vertical-align: middle;
+      } */
+      .topsquare{
+        float: none;
+        width: 100%;        
+      }
+      .videosquare{
+        height: 80%;
+        width: 100%;
+        background-color: green;        
+      }
+      .textsquare{
+        height: 20%;
+        width: 100%;
+        background-color: red;
+        white-space: none;
+      }
+
+
+
+</style>
+
+</head>
+
+<body>
+
+    <!-- <div class="myDiv">
+        <h2>This is heading in div envt</h2>
+        <p>this is just general text in div</p>
+        <div class="myDiv">
+            <h2>This is heading in div envt</h2>
+            <p>this is just general text in div</p>
+            
+        </div> 
+    </div> 
+    
+    
+    <div class="shadowbox">
+        <h2>This is heading in div envt</h2>
+        <p>this is just general text in div</p>
+    </div> 
+
+    <div>this is new div tag </div> -->
+
+<!-- <div class="kapildiv leftdiv">
+    <h1>GeeksforGeeks</h1>
+    <p>How many times were you frustrated while looking out
+    for a good collection of programming/algorithm/interview
+    questions? What did you expect and what did you get?
+    This portal has been created to provide well written,
+    well thought and well-explained solutions for selected
+    questions.
+ </p>
+    <h2>GeeksforGeeks</h2>
+    <p>GCET is an entrance test for the extensive classroom
+    programme by GeeksforGeeks to build and enhance Data
+    Structures and Algorithm concepts, mentored by Sandeep
+    Jain (Founder & CEO, GeeksforGeeks).He has 7 years of
+    teaching experience and 6 years of industry experience.
+ </p>
+</div>
+ <div  class="kapildiv middlediv">    
+        <h1>GeeksforGeeks</h1>
+        <p>How many times were you frustrated while looking out
+        for a good collection of programming/algorithm/interview
+        questions? What did you expect and what did you get?
+        This portal has been created to provide well written,
+        well thought and well-explained solutions for selected
+        questions.
+        </p>
+        <h2>GeeksforGeeks</h2>
+        <p>GCET is an entrance test for the extensive classroom
+        programme by GeeksforGeeks to build and enhance Data
+        Structures and Algorithm concepts, mentored by Sandeep
+        Jain (Founder & CEO, GeeksforGeeks).He has 7 years of
+        teaching experience and 6 years of industry experience.
+        </p>
+     </div>
+<div  class="rightdiv kapildiv">
+    <h1>GeeksforGeeks</h1>
+    <p>How many times were you frustrated while looking out
+    for a good collection of programming/algorithm/interview
+    questions? What did you expect and what did you get?
+    This portal has been created to provide well written,
+    well thought and well-explained solutions for selected
+    questions.
+    </p>
+    <h2>GeeksforGeeks</h2>
+    <p>GCET is an entrance test for the extensive classroom
+    programme by GeeksforGeeks to build and enhance Data
+    Structures and Algorithm concepts, mentored by Sandeep
+    Jain (Founder & CEO, GeeksforGeeks).He has 7 years of
+    teaching experience and 6 years of industry experience.
+    </p> -->
+
+<!-- </div> -->
+<br><br><br><br><br>
+<!-- <div align="center" border="1px" border="black" background="black" > -->
+<!-- <div class="square">inside the square</div> -->
+<!-- <div class="topsquare">topcolor</div>
+<div class="Middlesquare" align="center" >
+
+    <div class="circle"></div>    
+
+</div>
+<div class="Bottomsquare">topcolor</div>
+</div>
+
+<div class="center">
+    <p>this is test</p>
+
+
+</div>
+
+
+<div class="intro">
+    test margins
+    </div>
+     -->
+
+
+<!-- 
+<div class="header">
+<h2 clas="logo">kapil home page</h2>
+<ul class="nav">
+    <li><A href="">Home</A></li>
+    <li><A href="">About</A></li>
+    <li><A href="">Contact</A></li>
+    <li><A href="">Feedback</A></li>
+</ul>
+</div>
+
+<div class="hero"><h1>hero</h1></div>
+<div class="about"><h1>About</h1></div>
+<div class="hero"><h1>Contact</h1></div>
+<div class="hero"><h1>Feedback</h1></div>
+
+<div class="footer"><p>&copy; 2021 All Rights Reserved</p>
+</div> -->
+
+<section>
+    <div class="col-md-12 heading-section text-center ftco-animate">
+      <span class="subheading">Yoga Nidra </span>
+    </div>
+
+    <div class="nidraparent">
+        <!-- <div class="topsquare" align="center">
+            <div class="divsquare" align="center">        
+                <iframe width="280" height="158" src="https://www.youtube.com/embed/zvEX8P08b9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>description</div>
+            </div>
+        </div> -->
+
+        <div class="divsquare" align="center">
+            <div class="topsquare" align="center">
+                <div class="videosquare" align="center">https://www.youtube.com/embed/zvEX8P08b9E</div>
+                <div class="textsquare" align="center"><span>English Level 1 visualization 1</span></div>
+            </div>
+        </div>
+
+        <div class="divsquare" align="center">
+            <div class="topsquare" align="center">
+                <div class="videosquare" align="center"></div>
+                <div class="textsquare" align="center">a</div>
+            </div>
+        </div>
+
+
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+        
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    <div class="divsquare" align="center">
+        <div class="topsquare" align="center">
+            <div class="videosquare" align="center"></div>
+            <div class="textsquare" align="center">a</div>
+        </div>
+    </div>
+    
+    </div>
+  </section>
+
+
+    </body>
+
+</body>
+
+</html>

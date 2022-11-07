@@ -3334,6 +3334,7 @@ margin-left: auto; }
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
+justify-content: center;
 -ms-flex-wrap: wrap;
 flex-wrap: wrap;
 margin-right: -15px;
@@ -5590,13 +5591,6 @@ font-family: "Reenie Beanie", cursive; }
   margin-bottom: 5px;
   color: darkblue;
   font-family: "Lobster", cursive; }
-
-  .heading-section2 .subheading {
-    font-size: 25px;
-    display: block;
-    margin-bottom: 5px;
-    color: darkblue;
-    font-family: "Lobster", cursive; }
 
 .heading-section h2 {
 font-size: 30px;
